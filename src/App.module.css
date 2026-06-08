@@ -1,0 +1,195 @@
+.fundo{
+  background-color: #f7cedc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.Logo {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.tamanhoDoLogo {
+  width: 270px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.centralizarCard {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.CaixaLogin {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-self: center;
+  width: 100%;
+  max-width: 650px;
+  border: 1px solid #cccccc;
+  border-radius: 40px;
+  padding: 45px;
+  gap: 1.5rem;
+  box-sizing: border-box;
+  box-shadow: rgba(225, 6, 152, 0.325) 0px 19px 38px, rgba(234, 4, 173, 0.341) 0px 15px 12px;
+}
+
+.textoDoSubtitulo {
+  font-size: 15px;
+  color: #555;
+  font-weight: 600;
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+
+.corRosaDoOrkut {
+  color: #ed1c7c;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inputBordaNormal {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.inputBordaNormal:focus {
+  border-color: #ed1c7c;
+}
+
+.inputBordaErro {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #d93025;
+  background-color: #fff5f5;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.mostarInputESenha {
+  position: relative;
+  width: 100%;
+}
+
+.botaoTextoMostrarEsconder {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ed1c7c;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.botaoTextoMostrarEsconder:hover {
+  color: #d1186c;
+}
+
+.linhaDoCheckbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #333333;
+  font-family: sans-serif;
+}
+
+.caixaMensagemErro {
+  color: #d93025;
+  background-color: #fce8e6;
+  border: 1px solid #fadbd8;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.caixaMensagemSucesso {
+  color: #137333;
+  background-color: #e6f4ea;
+  border: 1px solid #ceead6;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.botaoEnviarFormulario {
+  background-color: #ed1c7c;
+  color: #ffffff;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.botaoEnviarFormulario:hover {
+  background-color: #d1186c;
+}
+
+.linksInferior {
+  margin-top: 10px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.linkEsqueceuSenha {
+  display: block;
+  text-align: right;
+  font-size: 13px;
+  color: #666666;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.linkEsqueceuSenha:hover {
+  text-decoration: underline;
+}
+
+.textoCriarConta {
+  font-size: 14px;
+  color: #333333;
+  margin-top: 10px;
+}
+
+.linkCriarAgora {
+  color: #ed1c7c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.linkCriarAgora:hover {
+  text-decoration: underline;
+}
